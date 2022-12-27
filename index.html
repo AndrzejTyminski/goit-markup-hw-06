@@ -514,11 +514,18 @@
             </div>
           </div>
           <div class="input-email-footer">
-            <div class="sign-up">
-              <h3>Zapisz się do newslettera</h3>
-            </div>
-            <input class="input-email" type="email" id="email" name="name" placeholder="E-mail" />
-            <button type="button">Send Request</button>
+            <h3 class="sign-up">Zapisz się do newslettera</h3>
+            <form name="sign-up-email-form" autocomplete="on">
+              <label for="user-email"></label>
+
+              <input
+                class="input-email"
+                type="email"
+                id="user-email"
+                placeholder="E-mail"
+              />
+            </form>
+            <button type="submin">Zapisz się</button>
           </div>
         </div>
       </div>
