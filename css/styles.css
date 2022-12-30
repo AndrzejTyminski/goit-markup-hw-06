@@ -731,27 +731,22 @@ input::placeholder {
 /* kontener z pozycjia relatywna */
 .svg-relative {
   position: relative;
-
   margin-bottom: 10px;
   border-radius: 4px;
   width: 100%;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 1250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svg-relative input {
   width: 100%;
 }
 
-.svg-relative:hover {
-
+input:hover {
   border: 1px solid #2196f3;
-  
-
 }
 
 textarea:hover {
   border: 1px solid #2196f3;
-  fill: #2196f3;
 }
 
 /* svg z pozycja absolutna */
