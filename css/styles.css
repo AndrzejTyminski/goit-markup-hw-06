@@ -761,9 +761,13 @@ textarea::placeholder {
 }
 .custom-check-box svg {
   position: absolute;
-  left: 18px;
-  top: 3px;
+  left: 15px;
+  top: 0px;
+  opacity: 0;
 }
+
+
+
 
 .custom-check-box input[type="checkbox"] {
   background-color: #fff;
@@ -774,6 +778,16 @@ textarea::placeholder {
   height: 15px;
   border-radius: 2px;
 }
+
+
+.custom-check-box input[type="checkbox"]:checked + svg 
+{opacity: 1;
+background-color: #2196f3;
+fill: #fff;
+height: 15px;
+width: 16px;
+border-radius: 2px;}
+
 
 .bottom-texarea {
   margin-bottom: 20px;
