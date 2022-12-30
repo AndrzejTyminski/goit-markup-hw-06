@@ -731,6 +731,17 @@ input::placeholder {
 .svg-relative {
   position: relative;
   margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.svg-relative:hover {
+  border: 1px solid #2196f3;
+  fill: #2196f3;
+}
+
+textarea:hover {
+  border: 1px solid #2196f3;
+  fill: #2196f3;
 }
 
 .svg-relative input {
@@ -757,7 +768,7 @@ textarea::placeholder {
 
 .custom-check-box {
   position: relative;
-  padding-left: 15px;
+
   display: flex;
   align-items: center;
 }
@@ -774,7 +785,6 @@ textarea::placeholder {
 
 .custom-check-box svg {
   position: absolute;
-  left: 15px;
   top: 4px;
   opacity: 0;
   transition: opacity 250ms ease-in-out;
@@ -812,4 +822,31 @@ textarea::placeholder {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #2196f3;
+}
+
+.margin-left {
+  margin-left: 8px;
+}
+
+/* input:focus,
+textarea:focus {
+  border: 1px solid #2196f3;
+  fill: #2196f3;
+} */
+
+.button-modal-submit {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #fff;
+  border: 0;
+  margin-top: 30px;
+}
+
+.modal-bottom-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
