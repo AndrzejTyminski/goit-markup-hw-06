@@ -731,6 +731,7 @@ input::placeholder {
 /* kontener z pozycjia relatywna */
 .svg-relative {
   position: relative;
+  height: 40px;
   margin-bottom: 10px;
   border-radius: 4px;
   width: 100%;
@@ -742,8 +743,10 @@ input::placeholder {
 }
 
 .svg-relative:hover {
+  height: 40px;
   border: 1px solid #2196f3;
   fill: #2196f3;
+  z-index: 5;
 }
 
 textarea:hover {
@@ -771,7 +774,6 @@ textarea::placeholder {
 
 .custom-check-box {
   position: relative;
-
   display: flex;
   align-items: center;
 }
@@ -788,9 +790,10 @@ textarea::placeholder {
 
 .custom-check-box svg {
   position: absolute;
-  top: 4px;
   opacity: 0;
-  transition: opacity 250ms ease-in-out;
+  top: 4px;
+
+  /* transition: opacity 250ms ease-in-out; */
 }
 
 .custom-check-box input[type="checkbox"]:checked + svg {
