@@ -726,6 +726,11 @@ input::placeholder {
   letter-spacing: 0.01em;
   color: #757575;
   margin-bottom: 4px;
+  
+}
+
+input{
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* kontener z pozycjia relatywna */
@@ -734,34 +739,30 @@ input::placeholder {
   margin-bottom: 10px;
   border-radius: 4px;
   width: 100%;
-  transition: border 1250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .svg-relative input {
   width: 100%;
 }
 
-/* hover input */
+/* hover/ text area & input */
 
 input:hover + .svg-input {
   fill: #2196f3;
 }
 
-input:hover {
-  border: 1px solid #2196f3;
-}
-
+input:hover,
 textarea:hover {
   border: 1px solid #2196f3;
 }
 
-
-/* svg z pozycja absolutna */
 .svg-input {
   position: absolute;
   top: 50%;
   left: 15px;
   transform: translateY(-50%);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 textarea::placeholder {
