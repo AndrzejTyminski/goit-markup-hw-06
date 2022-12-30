@@ -732,6 +732,11 @@ input::placeholder {
   position: relative;
   margin-bottom: 10px;
   border-radius: 4px;
+  width: 100%;
+}
+
+.svg-relative input {
+  width: 100%;
 }
 
 .svg-relative:hover {
@@ -742,10 +747,6 @@ input::placeholder {
 textarea:hover {
   border: 1px solid #2196f3;
   fill: #2196f3;
-}
-
-.svg-relative input {
-  width: 100%;
 }
 
 /* svg z pozycja absolutna */
@@ -827,12 +828,6 @@ textarea::placeholder {
 .margin-left {
   margin-left: 8px;
 }
-
-/* input:focus,
-textarea:focus {
-  border: 1px solid #2196f3;
-  fill: #2196f3;
-} */
 
 .button-modal-submit {
   width: 200px;
