@@ -559,7 +559,7 @@
                 <p>Zostaw swoje dane w formularzu poniżej</p>
 
                 <div class="field" role="group" aria-labelledby="first-name">
-                 <form name="name" autocomplete="on" method="post">
+                 <form name="first-name" autocomplete="on" method="post">
                   <label for="first-name">Imie</label>
                   <div class="svg-relative">
                     <input type="text" id="first-name"/>
@@ -603,7 +603,8 @@
 
                 
                 <div class="modal-bottom-flex" role="group" aria-labelledby="akcept-rules">
-                    <label class="custom-check-box">
+                  <form name="rules-check" autocomplete="off">
+                  <label class="custom-check-box">
                         <input  type="checkbox">
 
                           <svg width="11" height="8">
@@ -614,7 +615,7 @@
                   </label>
 
                   <button class="button-modal-submit" type="submit">Wyślij</button>
-               
+                </form>  
               </div>
 
 
