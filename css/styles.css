@@ -435,7 +435,7 @@ img {
 }
 
 .our-customers {
-  fill: #afb1b8;
+  fill: #b8afaf;
   transition: fill 1250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -674,4 +674,117 @@ input::placeholder {
   line-height: 20px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* modal form */
+
+.form-center {
+  width: 448px;
+  margin: 40px auto;
+}
+.form-center p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 40px;
+  color: var(--dark-black);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  position: relative;
+}
+
+.field input {
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-left: 42px;
+}
+
+.field textarea {
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding: 12px 16px;
+  height: 120px;
+  width: 448px;
+  resize: none;
+}
+
+.field label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+  margin-bottom: 4px;
+}
+
+/* kontener z pozycjia relatywna */
+.svg-relative {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.svg-relative input {
+  width: 100%;
+}
+
+/* svg z pozycja absolutna */
+.svg-input {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+}
+
+textarea::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+/*check box before*/
+
+.custom-check-box {
+  position: relative;
+  padding-left: 15px;
+}
+.custom-check-box svg {
+  position: absolute;
+  left: 18px;
+  top: 3px;
+}
+
+.custom-check-box input[type="checkbox"] {
+  background-color: #fff;
+  margin: 0;
+  appearance: none;
+  border: 2px solid #666;
+  width: 16px;
+  height: 15px;
+  border-radius: 2px;
+}
+
+.bottom-texarea {
+  margin-bottom: 20px;
+}
+
+.regulamin-font {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
