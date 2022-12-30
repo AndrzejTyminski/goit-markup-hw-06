@@ -758,16 +758,9 @@ textarea::placeholder {
 .custom-check-box {
   position: relative;
   padding-left: 15px;
+  display: flex;
+  align-items: center;
 }
-.custom-check-box svg {
-  position: absolute;
-  left: 15px;
-  top: 0px;
-  opacity: 0;
-}
-
-
-
 
 .custom-check-box input[type="checkbox"] {
   background-color: #fff;
@@ -779,15 +772,22 @@ textarea::placeholder {
   border-radius: 2px;
 }
 
+.custom-check-box svg {
+  position: absolute;
+  left: 15px;
+  top: 4px;
+  opacity: 0;
+  transition: opacity 250ms ease-in-out;
+}
 
-.custom-check-box input[type="checkbox"]:checked + svg 
-{opacity: 1;
-background-color: #2196f3;
-fill: #fff;
-height: 15px;
-width: 16px;
-border-radius: 2px;}
-
+.custom-check-box input[type="checkbox"]:checked + svg {
+  opacity: 1;
+  background-color: #2196f3;
+  fill: #fff;
+  height: 15px;
+  width: 16px;
+  border-radius: 2px;
+}
 
 .bottom-texarea {
   margin-bottom: 20px;
@@ -801,4 +801,15 @@ border-radius: 2px;}
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+  white-space: pre;
+}
+
+.regulamin-font-link:link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
