@@ -16,7 +16,7 @@ body {
 /*stylizacja przyciskow button*/
 
 .button-2th {
-  color: #212121;
+  color: var(--dark-black);
   background-color: #f5f4fa;
   box-sizing: border-box;
   height: 38px;
@@ -37,7 +37,7 @@ body {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   /*border-radius: 4px;*/
-  background-color: #2196f3;
+  background-color: var(--blue-hover);
 }
 
 .margin-bottom0 {
@@ -77,7 +77,7 @@ body {
   display: block;
   width: 58px;
   height: 4px;
-  background: #2196f3;
+  background: var(--blue-hover);
   right: 50%;
   transform: translatex(50%);
   bottom: -32px;
@@ -347,7 +347,7 @@ img {
 }
 
 .baground {
-  background-color: #2196f3;
+  background-color: var(--blue-hover);
 }
 
 .lorem-flex {
@@ -382,7 +382,7 @@ img {
 }
 
 .tel {
-  stroke: #757575;
+  stroke: var(--gray);
   vertical-align: middle;
   line-height: 1.14;
 }
@@ -392,7 +392,7 @@ img {
 }
 
 .tel:hover {
-  stroke: #2196f3;
+  stroke:  var(--blue-hover);
 }
 
 .image-overlay {
@@ -441,7 +441,7 @@ img {
 
 .our-customers:hover,
 .our-customers:focus {
-  fill: #2196f3;
+  fill: var(--blue-hover);
 }
 
 .blue-logo-dimensions {
@@ -456,7 +456,7 @@ img {
 
 .blue-border:hover,
 .blue-border:focus {
-  outline: 1px solid #2196f3;
+  outline: 1px solid var(--blue-hover);
 }
 
 .flex-footer {
@@ -636,12 +636,12 @@ img {
 }
 
 .input-email:focus {
-  outline: 2px solid #2196f3;
+  outline: 2px solid var(--blue-hover);
 }
 
 .button-email {
   position: relative;
-  background-color: #2196f3;
+  background-color: var(--blue-hover);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 700;
@@ -724,7 +724,7 @@ input::placeholder {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: #757575;
+  color: var(--gray);
   margin-bottom: 4px;
   
 }
@@ -749,12 +749,12 @@ input{
 /* hover/ text area & input */
 
 input:hover + .svg-input {
-  fill: #2196f3;
+  fill: var(--blue-hover);
 }
 
 input:hover,
 textarea:hover {
-  border: 1px solid #2196f3;
+  border: 1px solid var(--blue-hover);
 }
 
 .svg-input {
@@ -801,7 +801,7 @@ textarea::placeholder {
 
 .custom-check-box input[type="checkbox"]:checked + svg {
   opacity: 1;
-  background-color: #2196f3;
+  background-color: var(--blue-hover);
   fill: #fff;
   height: 15px;
   width: 16px;
@@ -819,7 +819,7 @@ textarea::placeholder {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--gray);
   white-space: pre;
 }
 
@@ -830,7 +830,7 @@ textarea::placeholder {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--blue-hover);
 }
 
 .margin-left {
@@ -840,7 +840,7 @@ textarea::placeholder {
 .button-modal-submit {
   width: 200px;
   height: 50px;
-  background: #2196f3;
+  background: var(--blue-hover)
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #fff;
