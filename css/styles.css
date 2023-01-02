@@ -609,7 +609,6 @@ img {
 
 .input-email-footer {
   margin: 12px 0 0 78px;
-  outline: none;
 }
 
 .sign-up-newsletter {
@@ -638,7 +637,6 @@ img {
 
 .input-email:focus {
   border: 1px solid var(--blue-hover);
-  outline: none;
 }
 
 .button-email {
@@ -656,7 +654,7 @@ img {
   border: 0px;
 }
 
-.button-email:focus{
+.button-email:focus {
   border-color: var(--blue-hover);
 }
 
@@ -747,23 +745,25 @@ input {
   margin-bottom: 10px;
   border-radius: 4px;
   width: 100%;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .svg-relative input {
   width: 100%;
-  transition: fill 4250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: fill 4250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 /*hover&focus for input textarea*/
 
 input:hover + .svg-input {
   fill: var(--blue-hover);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 input:hover,
 textarea:hover {
   border: 1px solid var(--blue-hover);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 input:focus + .svg-input {
@@ -783,10 +783,7 @@ textarea:focus {
   left: 15px;
   transform: translateY(-50%);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  outline: none;
 }
-
-
 
 textarea::placeholder {
   font-weight: 400;
@@ -877,7 +874,7 @@ textarea::placeholder {
   align-items: center;
 }
 
-
-input, textarea {
+input,
+textarea {
   outline: none;
 }
