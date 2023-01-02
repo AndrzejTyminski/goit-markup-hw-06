@@ -292,7 +292,7 @@ ul {
 figure {
   margin: 0;
   display: block;
-  transition: box-shadow 1250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .baground-grey {
@@ -420,12 +420,12 @@ img {
   align-items: center;
   border-radius: 50%;
   fill: #afb1b8;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .media-flex a:hover {
   fill: #fff;
   background-color: var(--blue-hover);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-customers-wraper {
@@ -436,7 +436,7 @@ img {
 
 .our-customers {
   fill: #b8afaf;
-  transition: fill 1250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-customers:hover,
@@ -483,6 +483,7 @@ img {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .media-flex-f a {
@@ -491,7 +492,6 @@ img {
   border-radius: 50%;
   fill: #afb1b8;
   background-color: rgba(255, 255, 255, 0.1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .media-flex-f a:hover {
@@ -632,7 +632,6 @@ img {
   border-radius: 4px;
   background-color: var(--footer-color);
   color: #fff;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-email:focus {
@@ -723,7 +722,6 @@ input::placeholder {
   height: 120px;
   width: 448px;
   resize: none;
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .field label {
@@ -735,22 +733,16 @@ input::placeholder {
   margin-bottom: 4px;
 }
 
-input {
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 /* kontener z pozycjia relatywna */
 .svg-relative {
   position: relative;
   margin-bottom: 10px;
   border-radius: 4px;
   width: 100%;
-  /* transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .svg-relative input {
   width: 100%;
-  /* transition: fill 4250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 /*hover&focus for input textarea*/
@@ -782,7 +774,6 @@ textarea:focus {
   top: 50%;
   left: 15px;
   transform: translateY(-50%);
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 textarea::placeholder {
@@ -815,8 +806,6 @@ textarea::placeholder {
   position: absolute;
   opacity: 0;
   top: 4px;
-
-  /* transition: opacity 250ms ease-in-out; */
 }
 
 .custom-check-box input[type="checkbox"]:checked + svg {
@@ -826,6 +815,7 @@ textarea::placeholder {
   height: 15px;
   width: 16px;
   border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .bottom-texarea {
